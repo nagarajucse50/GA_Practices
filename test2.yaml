@@ -12,4 +12,3 @@ jobs:
 
             - name: display the date
               run: date
-
