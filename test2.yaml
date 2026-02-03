@@ -1,6 +1,6 @@
 name: Testing Action
 
-on: push
+on:  push
 
 jobs:
     test-job:
@@ -12,3 +12,4 @@ jobs:
 
             - name: display the date
               run: date
+
