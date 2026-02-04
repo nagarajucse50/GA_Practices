@@ -1,6 +1,6 @@
 name: Testingabc
 
-on:  push
+on: push
 
 jobs:
     test-job:
