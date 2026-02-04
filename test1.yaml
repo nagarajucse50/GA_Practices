@@ -1,6 +1,5 @@
-name: Testingabc
-
-on: push
+name: Testing-abc
+on:  push
 
 jobs:
     test-job:
@@ -12,3 +11,4 @@ jobs:
         
         -name: display the date
           run: date
+
