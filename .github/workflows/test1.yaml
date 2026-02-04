@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: create a one file
-        run: echo "Nagaraju welcome to > devops.txt
+        run: echo "Nagaraju welcome to devops" > devops.txt
 
       - name: display the content of the file
         run: cat devops.txt
