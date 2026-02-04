@@ -1,3 +1,11 @@
 name: testing jobs
 
 on: push
+
+jobs:
+  test-jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: hello display
+        run: echo "hello working-directory:"
